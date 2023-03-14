@@ -3,7 +3,7 @@
 
     <div class="section create">
  
-        <h1>Create New Product</h1>
+        <h1>Add New Member</h1>
         <hr>
         {{-- <div class="row">
             <div class="col-lg-12 margin-tb">
@@ -43,7 +43,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
                         <strong>Image</strong>
-                        <input type="text" name="image" class="form-control" placeholder="Image location" value="{{ old('image') }}">
+                        <input type="file" name="image" class="form-control" placeholder="Image location" value="{{ old('image') }}">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12">
